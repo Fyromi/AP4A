@@ -1,6 +1,14 @@
-#include <iostream>
+#ifndef SENSOR_H
+#define SENSOR_H
 
-main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+class Sensor {
+
+    private:
+
+    public:
+        Sensor();
+        void readData();
+        void calibrate();
+};
+
+#endif
